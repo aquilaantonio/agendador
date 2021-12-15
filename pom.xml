@@ -9,11 +9,17 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.deveinhome</groupId>
-	<artifactId>agendador</artifactId>
+	<artifactId>Agendador-Parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>pom</packaging>
 	<name>agendador</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Projeto criado ter o controle da agenda e exportar os atendimentos consolidados.</description>
+	<modules>
+		<module>api</module>
+		<module>impl</module>
+		<module>rest-war</module>
+		<module>rest-api</module>
+	</modules>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
