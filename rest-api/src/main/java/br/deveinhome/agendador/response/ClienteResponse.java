@@ -5,12 +5,13 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 
 import java.io.Serializable;
+import java.util.List;
 
 @Data
 @AllArgsConstructor
 public class ClienteResponse implements Serializable {
 
-    private Cliente cliente;
+    private List<Cliente> clientes;
 
 
 }

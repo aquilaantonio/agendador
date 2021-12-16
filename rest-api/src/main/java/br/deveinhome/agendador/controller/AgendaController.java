@@ -10,6 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Arrays;
+
 @CrossOrigin("*")
 @RestController
 @RequestMapping("/agendador/v1/agendas")
@@ -20,23 +22,26 @@ public class AgendaController {
     private ClienteService clienteService;
 
 
-    @PostMapping(path = "/cliente")
+    @PostMapping(path = "/clientes")
     public ResponseEntity<Object> cliente(@RequestBody ClienteRequest request) {
         ClienteResponse response = clienteService.incluir(request);
-        if (response != null && response.getCliente() != null)
+        if (response != null && response.getClientes() != null)
             return ResponseEntity.ok().body(response);
 
         return ResponseEntity.badRequest().body(response);
 
     }
 
-    @GetMapping
-    public ResponseEntity<Object> hello() {
-        Cliente cli = new Cliente();
-        cli.setNome("HEllo");
-        ClienteResponse clienteResponse = new ClienteResponse(cli);
-         return ResponseEntity.ok().body(cli);
+   @GetMapping(path = "/clientes")
+    public ResponseEntity<Object> consultarClintes() {
+        ClienteResponse response = clienteService.buscarTodos();
+
+        if (response != null && response.getClientes() != null)
+            return ResponseEntity.ok().body(response);
+
+        return ResponseEntity.badRequest().body(response);
 
 
     }
+    
 }
