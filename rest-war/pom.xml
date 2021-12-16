@@ -11,18 +11,18 @@
     </parent>
 
     <groupId>br.deveinhome</groupId>
-    <artifactId>rest-war</artifactId>
+    <artifactId>Agendador-rest-war</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
 <dependencies>
     <dependency>
         <groupId>br.deveinhome</groupId>
-        <artifactId>rest-api</artifactId>
+        <artifactId>Agendador-rest-api</artifactId>
         <version>${project.version}</version>
     </dependency>
     <dependency>
         <groupId>br.deveinhome</groupId>
-        <artifactId>impl</artifactId>
+        <artifactId>Agendador-impl</artifactId>
         <version>${project.version}</version>
     </dependency>
 </dependencies>

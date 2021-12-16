@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>br.deveinhome</groupId>
-    <artifactId>api</artifactId>
+    <artifactId>Agendador-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     
