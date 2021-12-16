@@ -1,5 +1,6 @@
 package br.deveinhome.agendador.controller;
 
+import br.deveinhome.agendador.model.Cliente;
 import br.deveinhome.agendador.request.ClienteRequest;
 import br.deveinhome.agendador.response.ClienteResponse;
 import br.deveinhome.agendador.service.ClienteService;
@@ -26,6 +27,16 @@ public class AgendaController {
             return ResponseEntity.ok().body(response);
 
         return ResponseEntity.badRequest().body(response);
+
+    }
+
+    @GetMapping
+    public ResponseEntity<Object> hello() {
+        Cliente cli = new Cliente();
+        cli.setNome("HEllo");
+        ClienteResponse clienteResponse = new ClienteResponse(cli);
+         return ResponseEntity.ok().body(cli);
+
 
     }
 }
