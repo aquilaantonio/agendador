@@ -1,4 +1,4 @@
-package br.deveinhome.agendador.config;
+package br.devinhome.agendador.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;

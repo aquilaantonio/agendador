@@ -5,23 +5,23 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>br.deveinhome</groupId>
+        <groupId>br.devinhome</groupId>
         <artifactId>Agendador-Parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <groupId>br.deveinhome</groupId>
+    <groupId>br.devinhome</groupId>
     <artifactId>Agendador-rest-war</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
 <dependencies>
     <dependency>
-        <groupId>br.deveinhome</groupId>
+        <groupId>br.devinhome</groupId>
         <artifactId>Agendador-rest-api</artifactId>
         <version>${project.version}</version>
     </dependency>
     <dependency>
-        <groupId>br.deveinhome</groupId>
+        <groupId>br.devinhome</groupId>
         <artifactId>Agendador-impl</artifactId>
         <version>${project.version}</version>
     </dependency>

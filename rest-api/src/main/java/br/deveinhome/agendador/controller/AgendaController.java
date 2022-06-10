@@ -1,9 +1,9 @@
-package br.deveinhome.agendador.controller;
+package br.devinhome.agendador.controller;
 
-import br.deveinhome.agendador.request.AgendaRequest;
-import br.deveinhome.agendador.request.ClienteRequest;
-import br.deveinhome.agendador.response.ClienteResponse;
-import br.deveinhome.agendador.service.ClienteService;
+import br.devinhome.agendador.request.AgendaRequest;
+import br.devinhome.agendador.request.ClienteRequest;
+import br.devinhome.agendador.response.ClienteResponse;
+import br.devinhome.agendador.service.ClienteService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

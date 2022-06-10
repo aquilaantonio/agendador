@@ -5,18 +5,18 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>br.deveinhome</groupId>
+        <groupId>br.devinhome</groupId>
         <artifactId>Agendador-Parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <groupId>br.deveinhome</groupId>
+    <groupId>br.devinhome</groupId>
     <artifactId>Agendador-impl</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <dependencies>
         <dependency>
-            <groupId>br.deveinhome</groupId>
+            <groupId>br.devinhome</groupId>
             <artifactId>Agendador-api</artifactId>
             <version>${project.version}</version>
         </dependency>

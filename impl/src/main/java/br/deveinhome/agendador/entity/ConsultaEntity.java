@@ -1,4 +1,4 @@
-package br.deveinhome.agendador.entity;
+package br.devinhome.agendador.entity;
 
 import lombok.Data;
 

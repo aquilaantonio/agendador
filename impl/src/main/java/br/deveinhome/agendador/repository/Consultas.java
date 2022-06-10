@@ -1,6 +1,6 @@
-package br.deveinhome.agendador.repository;
+package br.devinhome.agendador.repository;
 
-import br.deveinhome.agendador.entity.ConsultaEntity;
+import br.devinhome.agendador.entity.ConsultaEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface Consultas extends JpaRepository<ConsultaEntity,Long> {

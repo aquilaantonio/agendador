@@ -1,6 +1,6 @@
-package br.deveinhome.agendador.request;
+package br.devinhome.agendador.request;
 
-import br.deveinhome.agendador.model.Cliente;
+import br.devinhome.agendador.model.Cliente;
 import com.fasterxml.jackson.annotation.JsonFormat;
 
 import java.time.LocalDateTime;

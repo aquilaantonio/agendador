@@ -1,10 +1,10 @@
-package br.deveinhome.agendador.service;
+package br.devinhome.agendador.service;
 
-import br.deveinhome.agendador.entity.ClienteEntity;
-import br.deveinhome.agendador.model.Cliente;
-import br.deveinhome.agendador.repository.Clientes;
-import br.deveinhome.agendador.request.ClienteRequest;
-import br.deveinhome.agendador.response.ClienteResponse;
+import br.devinhome.agendador.entity.ClienteEntity;
+import br.devinhome.agendador.model.Cliente;
+import br.devinhome.agendador.repository.Clientes;
+import br.devinhome.agendador.request.ClienteRequest;
+import br.devinhome.agendador.response.ClienteResponse;
 import lombok.val;
 import org.modelmapper.ModelMapper;
 import org.slf4j.Logger;
