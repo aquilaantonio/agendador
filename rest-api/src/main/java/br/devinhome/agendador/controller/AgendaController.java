@@ -1,6 +1,5 @@
 package br.devinhome.agendador.controller;
 
-import br.devinhome.agendador.request.AgendaRequest;
 import br.devinhome.agendador.request.ClienteRequest;
 import br.devinhome.agendador.response.ClienteResponse;
 import br.devinhome.agendador.service.ClienteService;
